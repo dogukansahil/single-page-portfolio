@@ -1,5 +1,3 @@
-
-
-
+Academic-One is a minimalist, responsive, single-page portfolio template designed for academics and professionals to showcase their achievements and projects. It features a clean layout with a profile section, links to social platforms like LinkedIn and GitHub, a publications section, and an education timeline. The template utilizes Google Fonts for modern typography, TailwindCSS for effortless styling, and Font Awesome for versatile icons. The dark mode support ensures better accessibility, while the embedded gallery and customizable sections make it flexible for diverse needs. All elements are consolidated in a single HTML file for ease of use and portability.
 
 This project is shared "as is" without any warranties or guarantees. It includes external resources such as Google Fonts, TailwindCSS, and Font Awesome, which are used under their respective licenses. While I have ensured compliance with these licenses to the best of my knowledge, users of this project should review the licenses of these resources independently to ensure proper usage in their own projects.
