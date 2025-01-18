@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorem Ipsum</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+  <meta name="keywords" content="Lorem, Ipsum, Dolor, Sit, Amet">
+  <meta name="author" content="Lorem Ipsum">
+  <meta property="og:title" content="Lorem Ipsum">
+  <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+  <meta property="og:image" content="avatar.png">
+  <meta property="og:url" content="https://www.example.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lorem Ipsum">
+  <meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+  <meta name="twitter:image" content="avatar.png">
+  <link rel="icon" type="image/png" href="avatar.png">
+</head>
+<style>
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .bg-gray-100 {
+        background-color: #f7fafc;
+    }
+
+    .text-gray-800 {
+        color: #2d3748;
+    }
+
+    .text-gray-900 {
+        color: #1a202c;
+    }
+
+    .text-gray-600 {
+        color: #718096;
+    }
+
+    .border-gray-300 {
+        border-color: #e2e8f0;
+    }
+
+    .bg-white {
+        background-color: #ffffff;
+    }
+
+    .text-blue-500 {
+        color: #3b82f6;
+    }
+
+    .text-black {
+        color: #000000;
+    }
+
+    .shadow-md {
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .bg-gray-100 {
+            background-color: #1a202c;
+        }
+
+        .text-gray-800 {
+            color: #e2e8f0;
+        }
+
+        .text-gray-900 {
+            color: #f7fafc;
+        }
+
+        .text-gray-600 {
+            color: #a0aec0;
+        }
+
+        .border-gray-300 {
+            border-color: #4a5568;
+        }
+
+        .bg-white {
+            background-color: #2d3748;
+        }
+
+        .text-blue-500 {
+            color: #60a5fa;
+        }
+
+        .text-black {
+            color: #e5e7eb;
+        }
+
+        .shadow-md {
+            box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -1px rgba(255, 255, 255, 0.06);
+        }
+
+        .text-gray-700 {
+            color: #ffffff;
+        }
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery figure {
+        flex: 1 1 150px;
+        margin: 10px;
+        text-align: center;
+        max-width: 200px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+        cursor: default;
+    }
+
+    .gallery figcaption {
+        margin-top: 5px;
+        font-weight: bold;
+        color: #2d3748;
+    }
+
+    @media (max-width: 768px) {
+        .gallery figure {
+            flex: 1 1 45%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .gallery figure {
+            flex: 1 1 100%;
+        }
+    }
+
+    .list-disc {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .list-disc li {
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .list-disc li::before {
+        content: '\f054';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        color: #3b82f6;
+    }
+
+    .cover-image {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 1;
+        object-fit: cover;
+        object-position: center;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+        margin-bottom: 20px;
+    }
+
+    .cover-image:hover {
+        filter: grayscale(0%);
+    }
+</style>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-5xl mx-auto p-6">
+    <div class="flex flex-col lg:flex-row items-center lg:items-start">
+      <div class="w-full lg:w-1/3 text-center mb-6 lg:mb-0 bg-white p-4 rounded-lg shadow-md lg:sticky lg:top-0">
+        <img class="w-24 h-24 rounded-full mx-auto border-4 border-gray-300" src="avatar.png" alt="Lorem Ipsum">
+        <h1 class="text-3xl font-extrabold mt-4 text-gray-900 text-center">Lorem Ipsum</h1>
+        <p class="text-lg font-bold mt-4 text-gray-900 text-center">Lorem Ipsum Dolor</p>
+        <p class="text-m mt-4 text-gray-900 text-center"><i class="fas fa-map-marker-alt"></i> Lorem / Ipsum</p>
+        <a href="#" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full my-4 inline-block hover:bg-blue-500 hover:text-white">Lorem Blog</a>
+        <div class="flex flex-wrap justify-center space-x-2 mt-4">
+          <a href="#" target="_blank" class="text-blue-500 hover:text-blue-700"><i class="fab fa-orcid"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fab fa-google"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fab fa-researchgate"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fas fa-university"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fa-solid fa-pen-nib"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fa-brands fa-hackerrank"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fab fa-apple"></i></a>
+          <a href="#" target="_blank" class="text-blue-500 hover:underline"><i class="fa-solid fa-walkie-talkie"></i></a>
+        </div>
+        <div class="text-center py-4">
+          <script type="text/javascript">
+            var user = "lorem.ipsum";
+            var domain = "example.com";
+            var email = user + '@' + domain;
+
+            function copyToClipboard(event) {
+              navigator.clipboard.writeText(email).then(function() {
+                showNotification(event.clientX, event.clientY);
+              }, function(err) {
+                console.error('Kopyalama başarısız:', err);
+              });
+            }
+
+            function showNotification(x, y) {
+              var notification = document.createElement('div');
+              notification.innerText = "Kopyalandı";
+              notification.style.position = 'absolute';
+              notification.style.left = x + 'px';
+              notification.style.top = y + 'px';
+              notification.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+              notification.style.color = 'white';
+              notification.style.padding = '5px 10px';
+              notification.style.borderRadius = '5px';
+              document.body.appendChild(notification);
+
+              setTimeout(function() {
+                document.body.removeChild(notification);
+              }, 2000);
+            }
+          </script>
+          <a href="javascript:void(0);" onclick="copyToClipboard(event)" class="text-xs text-black"><b>lorem.ipsum@example.com</b></a>
+        </div>
+      </div>
+      <div class="w-full lg:w-3/4 lg:pl-8">
+        <div class="mb-6 bg-white p-4 rounded-lg shadow-md">
+          <img src="cover.jpeg" class="cover-image">
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <br>
+          <p class="text-justify"><b>Lorem:</b> Lorem, Ipsum, Dolor, Sit, Amet</p>
+          <br>
+          <div class="mb-6">
+            <h2 class="text-xl font-semibold mb-2">Lorem</h2>
+            <p>Lorem ipsum dolor sit amet - <a href="#" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
+            <p>Lorem ipsum dolor sit amet - <a href="#" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
+            <p>Lorem ipsum dolor sit amet - <a href="#" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
+          </div>
+          <div class="mb-6">
+            <h2 class="text-xl font-semibold mb-2">Lorem</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 2023 - 2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 2016 - 2022</p>
+          </div>
+          <div class="mb-6">
+            <h2 class="text-xl font-semibold mb-2">Lorem</h2>
+            <ul class="list-disc pl-5">
+              <li><a href="#" target="_blank" class="text-blue-500 hover:underline">Lorem ipsum dolor sit amet</a></li>
+              <li><a href="#" target="_blank" class="text-blue-500 hover:underline">Lorem ipsum dolor sit amet</a></li>
+              <li><a href="#" target="_blank" class="text-blue-500 hover:underline">Lorem ipsum dolor sit amet</a></li>
+              <li><a href="#" target="_blank" class="text-blue-500 hover:underline">Lorem ipsum dolor sit amet</a></li>
+              <li><a href="#" target="_blank" class="text-blue-500 hover:underline">Lorem ipsum dolor sit amet</a></li>
+              <li><a href="#" target="_blank" class="text-blue-500 hover:underline">Lorem ipsum dolor sit amet</a></li>
+            </ul>
+          </div>
+          <div class="mb-6">Lorem
+            <h2 class="text-xl font-semibold mb-2">Lorem</h2>
+            <a href="#" target="_blank" class="text-blue-500 hover:underline">Lorem ipsum dolor sit amet</a>
+          </div>
+          <div class="mb-6">
+            <h2 class="text-xl font-semibold mb-2">Lorem</h2>
+            <a href="javascript:void(0);" onclick="openGallery()" class="text-blue-500 hover:underline">Lorem ipsum dolor sit amet</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="gallery" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden" onclick="closeGallery()">
+    <div class="relative" onclick="event.stopPropagation();">
+      <button onclick="closeGallery()" class="absolute top-2 right-4 text-blue-500 text-2xl">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
+        <figure>
+          <img src="4.jpg" alt="pcb" class="w-full h-auto">
+        </figure>
+        <figure>
+          <img src="3.jpg" alt="pcb" class="w-full h-auto">
+        </figure>
+        <figure>
+          <img src="2.jpg" alt="pcb" class="w-full h-auto">
+        </figure>
+        <figure>
+          <img src="1.jpg" alt="pcb" class="w-full h-auto">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <script>
+    function openGallery() {
+      document.getElementById('gallery').classList.remove('hidden');
+    }
+
+    function closeGallery() {
+      document.getElementById('gallery').classList.add('hidden');
+    }
+  </script>
+  <div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px;">
+    <a href="https://github.com/dogukansahil/single-page-portfolio" target="_blank" class="text-blue-500 hover:underline">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</body>
+</html>
